@@ -24,6 +24,15 @@ Key Observations:
 
 General Insights:
 
-	Preventive measures should be taken by countries in July every year to avoid contracting covid 19, especially for top regions with high deaths as America, Europe, South-East-Asia, Eastern Mediterranean, Africa, and Western Pacific.
+✔	Preventive measures should be taken by countries in July every year to avoid contracting covid 19, especially for top regions with high deaths as America, Europe, South-East-Asia, Eastern Mediterranean, Africa, and Western Pacific.
 -------------------------------------------------------------------------------------------------------------------------
+Task8- Data Analyst Salaries
+Key Observations:
+-	The number of employees with a salary >30000 and residence in the US is 2999.
+-	The most paid salaries are by US region (461538909usd) followed by GB (14945089usd), and the least paid salaries are by MK (0).
+-	The most sum paid salaries are for the Data Engineer job title (28.75%) followed by Data scientists (22.91%), and the least paid salaries are for Data Modeler (0.05%).
+-	The most paid salary is for Research Scientists job title (450000usd) followed by Data analyst (430967usd), AI Scientists (423834usd), Applied Machine Learning Scientist (423000usd), and the least paid salary is for Power BI Developer (5409usd).
+-	The largest number of employees is for the Data Engineer job title (1040) followed by Data Scientists (840), and Data Analyst (612), and the smallest number of employees is for Azure Data Engineer (1). 
+-	The largest number of employees is for the US region (3040) followed by GB (172), and CA (87), and the smallest number of employees is for VN (1).
+-	Cumulative Metrics: Sum of salaries in USD (517M), Sum of remote ratio (174K).
 
