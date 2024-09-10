@@ -36,3 +36,10 @@ Key Observations:
 -	The largest number of employees is for the US region (3040) followed by GB (172), and CA (87), and the smallest number of employees is for VN (1).
 -	Cumulative Metrics: Sum of salaries in USD (517M), Sum of remote ratio (174K).
 
+  General Insights:
+
+✔	If you search for the most profitable job title it is Research Scientist followed by Data Analyst, AI Scientist, and Applied Machine Learning Scientist.
+✔	If you search for a widely applied job title it is Data Engineer, followed by Data Scientist, and Data Analyst.
+✔	If you search for the region with the most applied employees US region, followed by GB, and CA.
+
+
