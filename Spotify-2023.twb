@@ -1,0 +1,1899 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='spotify-2023' inline='true' name='federated.1jlrqwf1syfc7s14rjnp30cbuy8a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='spotify-2023' name='textscan.1v1o9ly05s3gvn19palku08ndo27'>
+            <connection class='textscan' directory='D:/FCI/KSA Work/Certificates/CongoRise/Top Spotify Songs 2023- Task 1' filename='spotify-2023.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1v1o9ly05s3gvn19palku08ndo27' name='spotify-2023.csv' table='[spotify-2023#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='track_name' ordinal='0' />
+            <column datatype='string' name='artist(s)_name' ordinal='1' />
+            <column datatype='integer' name='artist_count' ordinal='2' />
+            <column datatype='integer' name='released_year' ordinal='3' />
+            <column datatype='integer' name='released_month' ordinal='4' />
+            <column datatype='integer' name='released_day' ordinal='5' />
+            <column datatype='integer' name='in_spotify_playlists' ordinal='6' />
+            <column datatype='integer' name='in_spotify_charts' ordinal='7' />
+            <column datatype='integer' name='streams' ordinal='8' />
+            <column datatype='integer' name='in_apple_playlists' ordinal='9' />
+            <column datatype='integer' name='in_apple_charts' ordinal='10' />
+            <column datatype='integer' name='in_deezer_playlists' ordinal='11' />
+            <column datatype='integer' name='in_deezer_charts' ordinal='12' />
+            <column datatype='integer' name='in_shazam_charts' ordinal='13' />
+            <column datatype='integer' name='bpm' ordinal='14' />
+            <column datatype='string' name='key' ordinal='15' />
+            <column datatype='string' name='mode' ordinal='16' />
+            <column datatype='integer' name='danceability_%' ordinal='17' />
+            <column datatype='integer' name='valence_%' ordinal='18' />
+            <column datatype='integer' name='energy_%' ordinal='19' />
+            <column datatype='integer' name='acousticness_%' ordinal='20' />
+            <column datatype='integer' name='instrumentalness_%' ordinal='21' />
+            <column datatype='integer' name='liveness_%' ordinal='22' />
+            <column datatype='integer' name='speechiness_%' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1v1o9ly05s3gvn19palku08ndo27' name='spotify-2023.csv' table='[spotify-2023#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='track_name' ordinal='0' />
+            <column datatype='string' name='artist(s)_name' ordinal='1' />
+            <column datatype='integer' name='artist_count' ordinal='2' />
+            <column datatype='integer' name='released_year' ordinal='3' />
+            <column datatype='integer' name='released_month' ordinal='4' />
+            <column datatype='integer' name='released_day' ordinal='5' />
+            <column datatype='integer' name='in_spotify_playlists' ordinal='6' />
+            <column datatype='integer' name='in_spotify_charts' ordinal='7' />
+            <column datatype='integer' name='streams' ordinal='8' />
+            <column datatype='integer' name='in_apple_playlists' ordinal='9' />
+            <column datatype='integer' name='in_apple_charts' ordinal='10' />
+            <column datatype='integer' name='in_deezer_playlists' ordinal='11' />
+            <column datatype='integer' name='in_deezer_charts' ordinal='12' />
+            <column datatype='integer' name='in_shazam_charts' ordinal='13' />
+            <column datatype='integer' name='bpm' ordinal='14' />
+            <column datatype='string' name='key' ordinal='15' />
+            <column datatype='string' name='mode' ordinal='16' />
+            <column datatype='integer' name='danceability_%' ordinal='17' />
+            <column datatype='integer' name='valence_%' ordinal='18' />
+            <column datatype='integer' name='energy_%' ordinal='19' />
+            <column datatype='integer' name='acousticness_%' ordinal='20' />
+            <column datatype='integer' name='instrumentalness_%' ordinal='21' />
+            <column datatype='integer' name='liveness_%' ordinal='22' />
+            <column datatype='integer' name='speechiness_%' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>track_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[track_name]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>track_name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>artist(s)_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[artist(s)_name]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>artist(s)_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>artist_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[artist_count]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>artist_count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>released_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[released_year]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>released_year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>released_month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[released_month]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>released_month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>released_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[released_day]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>released_day</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_spotify_playlists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_spotify_playlists]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_spotify_playlists</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_spotify_charts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_spotify_charts]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_spotify_charts</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>streams</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[streams]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>streams</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_apple_playlists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_apple_playlists]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_apple_playlists</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_apple_charts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_apple_charts]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_apple_charts</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_deezer_playlists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_deezer_playlists]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_deezer_playlists</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_deezer_charts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_deezer_charts]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_deezer_charts</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_shazam_charts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_shazam_charts]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>in_shazam_charts</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bpm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bpm]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>bpm</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[key]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>key</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mode]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>mode</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>danceability_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[danceability_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>danceability_%</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>valence_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[valence_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>valence_%</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[energy_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>energy_%</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acousticness_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[acousticness_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>acousticness_%</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>instrumentalness_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[instrumentalness_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>instrumentalness_%</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>liveness_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[liveness_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>liveness_%</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>speechiness_%</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[speechiness_%]</local-name>
+            <parent-name>[spotify-2023.csv]</parent-name>
+            <remote-alias>speechiness_%</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='spotify-2023.csv' datatype='table' name='[__tableau_internal_object_id__].[spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64]' role='measure' type='quantitative' />
+      <column caption='Acousticness %' datatype='integer' name='[acousticness_%]' role='measure' type='quantitative' />
+      <column caption='Artist(S) Name' datatype='string' name='[artist(s)_name]' role='dimension' type='nominal' />
+      <column caption='Artist Count' datatype='integer' name='[artist_count]' role='measure' type='quantitative' />
+      <column caption='Bpm' datatype='integer' name='[bpm]' role='measure' type='quantitative' />
+      <column caption='Danceability %' datatype='integer' name='[danceability_%]' role='measure' type='quantitative' />
+      <column caption='Energy %' datatype='integer' name='[energy_%]' role='measure' type='quantitative' />
+      <column caption='In Apple Charts' datatype='integer' name='[in_apple_charts]' role='measure' type='quantitative' />
+      <column caption='In Apple Playlists' datatype='integer' name='[in_apple_playlists]' role='measure' type='quantitative' />
+      <column caption='In Deezer Charts' datatype='integer' name='[in_deezer_charts]' role='measure' type='quantitative' />
+      <column caption='In Deezer Playlists' datatype='integer' name='[in_deezer_playlists]' role='measure' type='quantitative' />
+      <column caption='In Shazam Charts' datatype='integer' name='[in_shazam_charts]' role='measure' type='quantitative' />
+      <column caption='In Spotify Charts' datatype='integer' name='[in_spotify_charts]' role='measure' type='quantitative' />
+      <column caption='In Spotify Playlists' datatype='integer' name='[in_spotify_playlists]' role='measure' type='quantitative' />
+      <column caption='Instrumentalness %' datatype='integer' name='[instrumentalness_%]' role='measure' type='quantitative' />
+      <column caption='Key' datatype='string' name='[key]' role='dimension' type='nominal' />
+      <column caption='Liveness %' datatype='integer' name='[liveness_%]' role='measure' type='quantitative' />
+      <column caption='Mode' datatype='string' name='[mode]' role='dimension' type='nominal' />
+      <column caption='Released Day' datatype='integer' name='[released_day]' role='dimension' type='quantitative' />
+      <column caption='Released Month' datatype='integer' name='[released_month]' role='dimension' type='quantitative' />
+      <column caption='Released Year' datatype='integer' name='[released_year]' role='dimension' type='quantitative' />
+      <column caption='Speechiness %' datatype='integer' name='[speechiness_%]' role='measure' type='quantitative' />
+      <column caption='Streams' datatype='integer' name='[streams]' role='measure' type='quantitative' />
+      <column caption='Track Name' datatype='string' name='[track_name]' role='dimension' type='nominal' />
+      <column caption='Valence %' datatype='integer' name='[valence_%]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='spotify-2023.csv' id='spotify-2023.csv_0DAF98F047B649E49DC8B72E97073B64'>
+            <properties context=''>
+              <relation connection='textscan.1v1o9ly05s3gvn19palku08ndo27' name='spotify-2023.csv' table='[spotify-2023#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='track_name' ordinal='0' />
+                  <column datatype='string' name='artist(s)_name' ordinal='1' />
+                  <column datatype='integer' name='artist_count' ordinal='2' />
+                  <column datatype='integer' name='released_year' ordinal='3' />
+                  <column datatype='integer' name='released_month' ordinal='4' />
+                  <column datatype='integer' name='released_day' ordinal='5' />
+                  <column datatype='integer' name='in_spotify_playlists' ordinal='6' />
+                  <column datatype='integer' name='in_spotify_charts' ordinal='7' />
+                  <column datatype='integer' name='streams' ordinal='8' />
+                  <column datatype='integer' name='in_apple_playlists' ordinal='9' />
+                  <column datatype='integer' name='in_apple_charts' ordinal='10' />
+                  <column datatype='integer' name='in_deezer_playlists' ordinal='11' />
+                  <column datatype='integer' name='in_deezer_charts' ordinal='12' />
+                  <column datatype='integer' name='in_shazam_charts' ordinal='13' />
+                  <column datatype='integer' name='bpm' ordinal='14' />
+                  <column datatype='string' name='key' ordinal='15' />
+                  <column datatype='string' name='mode' ordinal='16' />
+                  <column datatype='integer' name='danceability_%' ordinal='17' />
+                  <column datatype='integer' name='valence_%' ordinal='18' />
+                  <column datatype='integer' name='energy_%' ordinal='19' />
+                  <column datatype='integer' name='acousticness_%' ordinal='20' />
+                  <column datatype='integer' name='instrumentalness_%' ordinal='21' />
+                  <column datatype='integer' name='liveness_%' ordinal='22' />
+                  <column datatype='integer' name='speechiness_%' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Top 10 artists with most hits'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='18'>Top 10 artists with most hits</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='spotify-2023' name='federated.1jlrqwf1syfc7s14rjnp30cbuy8a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jlrqwf1syfc7s14rjnp30cbuy8a'>
+            <column caption='Artist(S) Name' datatype='string' name='[artist(s)_name]' role='dimension' type='nominal' />
+            <column caption='Artist Count' datatype='integer' name='[artist_count]' role='measure' type='quantitative' />
+            <column-instance column='[artist(s)_name]' derivation='None' name='[none:artist(s)_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[artist_count]' derivation='Sum' name='[sum:artist_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([artist_count])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:artist(s)_name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[sum:artist_count:qk]</rows>
+        <cols>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</cols>
+      </table>
+      <simple-id uuid='{ECB68B1E-D188-4240-AA9A-0BE49F28C8FE}' />
+    </worksheet>
+    <worksheet name='Top 5 artists for Spotify list'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>Top 5 artists for Spotify list</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='spotify-2023' name='federated.1jlrqwf1syfc7s14rjnp30cbuy8a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jlrqwf1syfc7s14rjnp30cbuy8a'>
+            <column caption='Artist(S) Name' datatype='string' name='[artist(s)_name]' role='dimension' type='nominal' />
+            <column caption='In Spotify Playlists' datatype='integer' name='[in_spotify_playlists]' role='measure' type='quantitative' />
+            <column-instance column='[artist(s)_name]' derivation='None' name='[none:artist(s)_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[in_spotify_playlists]' derivation='Sum' name='[sum:in_spotify_playlists:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([in_spotify_playlists])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;(G)I-DLE&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;21 Savage, Gunna&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;24kgoldn, Iann Dior&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;50 Cent&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;a-ha&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;A$AP Rocky, Metro Boomin, Roisee&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Abhijay Sharma, Riar Saab&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Adassa, Mauro Castillo, Stephanie Beatriz, Encanto - Cast, Rhenzy Feliz, Diane Guerrero, Carolina Gaitan&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Adele&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Aerosmith&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Agust D&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Aitana, zzoilo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ak4:20, Cris Mj, Pailita&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Alec Benjamin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Alvaro Diaz, Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ana Castela, AgroPlay&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Andy Williams&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Anggi Marito&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Anitta&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Anitta, Tini, Becky G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;AnnenMayKantereit, Giant Rooks&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Anuel Aa, Jhay Cortez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Anuel Aa, Myke Towers, Jhay Cortez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arcangel, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arcangel, Bizarrap&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arcangel, De La Ghetto, Justin Quiles, Lenny Tavï¿½ï¿½rez, Sech, Dalex, Dimelo Flow, Rich Music&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arctic Monkeys&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ariana Grande&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ariana Grande, The Weeknd&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arijit Singh, Sachin-Jigar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arijit Singh, Sachin-Jigar, Amitabha Bhattacharya&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Arijit Singh, Vishal Dadlani, Sukriti Kakar, Vishal-Shekhar, Shekhar Ravjiani, Kumaar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Armani White&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Aventura, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Avicii&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ayparia, unxbected&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Baby Rasta, Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Baby Tate&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny, Eladio Carrion&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny, Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny, Jhay Cortez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny, Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny, Tainy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bad Bunny, The Marï¿½ï&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Band Aid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Beach House&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Beach Weather&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bebe Rexha, David Guetta&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Becky G, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bellakath&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Benson Boone&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Beyoncï¿&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Big One, Duki, Lit Killah, Maria Becerra, FMK, Rusherking, Emilia, Tiago pzk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Big One, FMK, Ke personajes&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BIGBANG&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Billie Eilish&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Billie Eilish, Khalid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bing Crosby, John Scott Trotter &amp; His Orchestra, Ken Darby Singers&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bizarrap, Paulo Londra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bizarrap, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bizarrap, Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bizarrap, Tiago pzk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bizarrap, Villano Antillano&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Blackbear, BoyWithUke&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BLACKPINK&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BLESSD, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bobby Helms&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bomba Estï¿½ï¿½reo, Bad B&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BoyWithUke&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Brenda Lee&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Britney Spears&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Brray, Rauw Alejandro, Lyanno&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bruno Mars&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Bruno Mars, Anderson .Paak, Silk Sonic&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BTS&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BTS, Jung Kook, FIFA Sound&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Burl Ives&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Burna Boy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Buscabulla, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;BYOR, Imanbek&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;C. Tangana&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Calvin Harris, Dua Lipa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Calvin Harris, Dua Lipa, Young Thug&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Calvin Harris, Ellie Goulding&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Calvin Harris, Halsey, Pharrell Williams, Justin Timberlake&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Camila Cabello, Ed Sheeran&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Camila Cabello, Willow&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Carin Leon&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Carin Leon, Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Cartel De Santa, La Kelly&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Central Cee&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chanel&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Charli XCX, Jax Jones, Joel Corry, Saweetie&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Charlie Puth&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Charlie Puth, BTS, Jung Kook&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chase Atlantic&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chencho Corleone, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chencho Corleone, Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Cherish, ACRAZE&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Childish Gambino&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chino Pacas&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chris Brown&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chris Brown, Rvssian, Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chris Molitor&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chris Rea&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Christian Nodal&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Chuck Berry&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Cigarettes After Sex&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ckay&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ckay, AX&apos;EL, Dj Yo!&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Coi Leray&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Coldplay&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Coldplay, BTS&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Conan Gray&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Coolio, L.V.&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Creedence Clearwater Revival&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Cris Mj&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;d4vd&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Daddy Yankee&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Daddy Yankee, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Danny Ocean&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Darlene Love&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dave&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dave, Central Cee&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;David Guetta, Anne-Marie, Coi Leray&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;David Guetta, Ella Henderson, Becky Hill&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;David Guetta, Shakira, Black Eyed Peas&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;David Kushner&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;De La Ghetto, Duki, Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;De La Ghetto, Feid, Polima WestCoast, Paloma Mami, Pailita&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dean Lewis&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dean Martin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Demi Lovato&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;dennis, MC Kevin o Chris&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;DJ Escobar, MC MENOR SG, MC MENOR HR&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dj LK da Escï¿½ï¿½cia, Tchakabum, mc jhenny, M&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Doechii&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Doja Cat&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Doja Cat, The Weeknd&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Don Omar, Lucenzo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Don Toliver, Future, Justin Bieber&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dove Cameron&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dr. Dre, 2Pac, Roger&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dr. Dre, Snoop Dogg&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, 21 Savage&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, DJ Khaled, Lil Baby&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, Future, Tems&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, Future, Young Thug&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, Project Pat, 21 Savage&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, Travis Scott&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, Travis Scott, 21 Savage&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Drake, WizKid, Kyla&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dua Lipa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dua Lipa, DaBaby&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dua Lipa, Elton John, Pnau&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Dua Lipa, Megan Thee Stallion&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Duki&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Duki, NICKI NICOLE, Cris Mj, Standly, Stars Music Chile&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Duncan Laurence&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ed Sheeran&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ed Sheeran, Elton John&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ed Sheeran, Fireboy DML&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ed Sheeran, J Balvin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ed Sheeran, Taylor Swift&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eden Muï¿½ï&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Edison Lighthouse&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;El Chachito, Junior H&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Elley Duhï¿&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Elton John, Britney Spears&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Em Beihold&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Em Beihold, Stephen Sanchez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eminem&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eminem, Dido&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eminem, Dina Rae&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eminem, Dr. Dre&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eminem, Nate Dogg&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Emmy Meli&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;ENHYPEN&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Eslabon Armado, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Farruko&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Alejo, Robi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Mora&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Mora, Saiko, Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Myke Towers, Sky Rompiendo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Paulo Londra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Sech, Jhayco&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Feid, Young Miko&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fifty Fifty&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fran C, Polima WestCoast, Nickoog Clk, Pablito Pesadilla&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Frank Ocean&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Frank Sinatra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Frank Sinatra, B. Swanson Quartet&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Freddie Dredd&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fuerza Regida&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fuerza Regida, Chino Pacas&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fuerza Regida, Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fuerza Regida, Natanael Cano&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fuerza Regida, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Fujii Kaze&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Future&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Future, Chris Brown, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Future, Lil Uzi Vert, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Future, Metro Boomin, Don Toliver&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gabito Ballesteros, Junior H, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gayle&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ghost&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;girl in red&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Giveon&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Glass Animals&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;GODZZ__-, Zakaria&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gorillaz, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gotye, Kimbra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Grupo Marca Registrada, Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Grupo Marca Registrada, Junior H&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gunna&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gunna, Lil Baby&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Guns N&apos; Roses&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gustavo Mioto, Mari Fernandez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Gwen Stefani, Blake Shelton&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;HA SUNG WOON, Jimin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Halsey&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Halsey, BTS&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Halsey, Suga&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Harry Styles&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Hotel Ugly&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Hozier&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Imagine Dragons&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Imagine Dragons, League of Legends, Arcane&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Imagine Dragons, League of Legends, JID, Arcane&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Intense, AP Dhillon, Gurinder Gill&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Interplanetary Criminal, Eliza Rose&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;INTERWORLD&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Israel &amp; Rodolffo, Ana Castela&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Israel &amp; Rodolffo, Mari Fernandez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;IU, Agust D&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;IVE&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;J Balvin, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;J Balvin, Maria Becerra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;J Balvin, Nio Garcia, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;j-hope&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;j-hope, J. Cole&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;J. Cole&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;J. Cole, Lil Durk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jack Black&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jack Harlow&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jack Harlow, Lil Nas X&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jain&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;James Arthur&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;James Blake, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;James Hype, Miggy Dela Rosa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jasiel Nuï¿½ï¿½ez, Peso P&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jason Derulo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jaymes Young&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jessi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jessica Darrow&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jimin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;JISOO&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jnr Choi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;John Legend&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;John Legend, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;John Lennon, The Harlem Community Choir, The Plastic Ono Band, Yoko Ono&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Joji&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jordan Fisher, Josh Levi, Finneas O&apos;Connell, 4*TOWN (From Disney and Pixarï¿½ï¿½ï¿½s Turning Red), Topher Ngo, Grayson Vill&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Josï¿½ï¿½ Felic&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Juan Cruz Toledo, Huilen Toledo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Juice WRLD&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Julieta Venegas, Bad Bunny, Tainy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Jung Kook&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Junior H, Eden Muï¿½ï&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Junior H, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Justin Bieber&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Justin Bieber, Daniel Caesar, Giveon&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Justin Bieber, Don Toliver&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Justin Bieber, The Kid Laroi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Justin Quiles, Lenny Tavï¿½ï¿½rez, BL&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;JVKE&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kaifi Khalil&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kali Uchis&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kali Uchis, Amaarae, Moliy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kaliii, Kaliii&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;KALUSH&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kanii, PR1ISVX&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kanye West&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kanye West, Alicia Keys, Fivio Foreign&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kanye West, Lil Durk, Cardi B&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kanye West, XXXTENTACION&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Karol G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Karol G, Becky G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Karol G, Ovy On The Drums&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Karol G, Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Karol G, Romeo Santos&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Karol G, Shakira&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kate Bush&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Katy Perry, Alesso&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Keane&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Keisya Levronka&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kelly Clarkson&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Baby Keem&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Beth Gibbons&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Beyoncï¿&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Blxst, Amanda Reifer&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Ghostface Killah, Summer Walker&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Jay Rock&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Kodak Black&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Sam Dew, Baby Keem&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Sampha&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Tanna Leone&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kendrick Lamar, Taylour Paige&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kenia OS&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kenshi Yonezu&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kevin Gates, Juicy J&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kevin Kaarl&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;King&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kodak Black&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kodak Black, NLE Choppa, Muni Long, JVKE, Jimin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Kordhell&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;L7nnon, DJ Biel do Furduncinho, Bianca&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Labrinth&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Labrinth, Zendaya&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lady Gaga&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lady Gaga, Bradley Cooper&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lana Del Rey&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lana Del Rey, Taylor Swift&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lasso&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Latto, Jung Kook&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lauren Spencer Smith&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lauren Spencer Smith, Lauren Spencer Smith, Lauren Spencer Smith&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;LE SSERAFIM&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Leah Kate&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Leo Santana&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lewis Capaldi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;LF System&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Libianca&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lil Baby&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lil Durk, Morgan Wallen&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lil Nas X&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lil Tjay&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lil Uzi Vert&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lil Yachty&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Linkin Park&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lisa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lit Killah, Maria Becerra, Tiago pzk, NICKI NICOLE&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lizzo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lizzy McAlpine&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lord Huron&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Loreen&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Lost Frequencies, Calum Scott&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luar La L&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luciano&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luciano, Aitch, Bï¿½&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ludwig Goransson, Foudeqush&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luï¿½ï¿½sa Sonza, MC Frog, Dj Gabriel do Borel, Davi K&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luis R Conriquez, La Adictiva&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luke Combs&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Luude, Colin Hay&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mabel Matiz, Mert Demir&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mac DeMarco&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mae Stephens&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mahalini&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mahmood, Blanco&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mainstreet, Chefin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Maldy, Karol G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Maluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mambo Kingz, DJ Luian, Anuel Aa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Manuel Turizo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marï¿½ï¿½lia Mendo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marï¿½ï¿½lia Mendonï¿½ï¿½a, George Henrique &amp;&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marï¿½ï¿½lia Mendonï¿½ï¿½a, Hugo &amp; G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marï¿½ï¿½lia Mendonï¿½ï¿½a, Maiara &amp;&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Maria Becerra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mariah Carey&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Maroon 5&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Maroon 5, Wiz Khalifa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marshmello, Jonas Brothers&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marshmello, Juice WRLD&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marshmello, Khalid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Marshmello, Manuel Turizo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Masked Wolf&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Matuï¿½ï¿½, Wiu, &quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;MC Caverinha, KayBlack&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mc Livinho, DJ Matt D&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mc Pedrinho, DJ 900&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mc Pedrinho, Pedro Sampaio&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;MC Ryan SP, Love Funk, Mc Paiva ZS&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mc Vitin Da Igrejinha, MC Tairon, DJ Win&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;MC Xenon, Os Gemeos da Putaria&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Meghan Trainor&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Melanie Martinez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Melody, Ana Castela, Dj Chris No Beat&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Metallica&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Metro Boomin, Coi Leray&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mï¿½ï¿½ne&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Michael Bublï¿&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Migrantes, LiL CaKe, Nico Valdi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Miguel&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Miley Cyrus&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;MNEK, Jax Jones&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Morgan Wallen&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Morgan Wallen, Eric Church&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Mr.Kitty&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Muni Long&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Musical Youth&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Myke Towers&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Myke Towers, Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nat King Cole&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Natanael Cano&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Natanael Cano, Gabito Ballesteros, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Natanael Cano, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nayeon&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;NEIKED, Mae Muller, Polo G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nengo Flow, Anuel Aa, Chris Jedi, Chencho Corleone&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nengo Flow, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nessa Barrett&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;New West&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;NewJeans&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;NF&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Niall Horan&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nicki Minaj&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nicki Minaj, Aqua, Ice Spice&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nicki Minaj, Ice Spice&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nicki Minaj, Lil Baby&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nicky Jam, Feid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nicky Youre, Dazy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;NIKI&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nile Rodgers, LE SSERAFIM&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Nirvana&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;NLE Choppa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;NMIXX&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Offset, JID&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Olga Merediz, Stephanie Beatriz, Encanto - Cast&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Oliver Tree&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Olivia Rodrigo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Omar Apollo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;One Direction&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;OneRepublic&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Oscar Maydon, Junior H&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ovy On The Drums, Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Oxlade&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ozuna, Feid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ozuna, Shakira&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ozuna, Tiago pzk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;P!nk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Paloma Faith&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Panic! At The Disco&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Paul McCartney&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Paulo Londra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Peggy Gou&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Perry Como, The Fontane Sisters, Mitchell Ayres &amp; His Orchestra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Peso Pluma, Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Peso Pluma, Luis R Conriquez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Peso Pluma, Yng Lvcas&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Pharrell Williams, Nile Rodgers, Daft Punk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Pharrell Williams, Tyler, The Creator, 21 Savage&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;PinkPantheress&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;PinkPantheress, Ice Spice&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Plan B&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Playboi Carti&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;PnB Rock&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Polima WestCoast, Pailita&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Polo G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Post Malone&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Post Malone, Doja Cat&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Post Malone, Roddy Ricch&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Post Malone, Swae Lee&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Prezioso, Gabry Ponte, LUM!X&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Pritam, Arijit Singh, Amitabh Bhattacharya&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;PSY, Suga&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Queen&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Quevedo&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Quevedo, Jhayco&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Quevedo, La Pantera, Juseph, Cruz Cafunï¿½ï¿½, Bï¿½ï¿½jo, Abhir Hathi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Radiohead&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Raim Laode&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rauw Alejandro, Bizarrap&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rauw Alejandro, ROSALï¿½&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ray Dalton, Ryan Lewis, Macklemore&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;RAYE, 070 Shake&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rels B&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Residente, Bizarrap&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rex Orange County&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rï¿½ï&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rï¿½ï¿½ma, Selena G&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rich The Kid, Matuï¿&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rihanna&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rihanna, Calvin Harris&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Riton, Nightcrawlers, Mufasa &amp; Hypeman, Dopamine&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;RM&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;RM, Colde&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Robin Schulz, Oliver Tree&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rosa Linn&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Rosa Walton, Hallie Coggins&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;ROSALï¿½&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ruth B.&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ryan Castro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sabrina Carpenter&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sachin-Jigar, Shadab Faridi, Altamash Faridi, Amitabh Bhattacharya, Varun Jain&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SALES&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sam Ryder&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sam Smith&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sam Smith, Calvin Harris, Jessie Reyez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sam Smith, Kim Petras&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Schï¿½ï¿½rze, DJ R&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Seafret&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sean Paul, Dua Lipa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sean Paul, Feid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sebastian Yatra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sebastian Yatra, Manuel Turizo, Beï¿½ï&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sech, Bad Bunny, Mora&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sech, Mora&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Selena Gomez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Semicenk, Doï¿½ï¿½u &quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SEVENTEEN&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shae Gill, Ali Sethi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shakin&apos; Stevens&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shakira&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shakira, Bizarrap&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shakira, Rauw Alejandro&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shawn Mendes&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shawn Mendes, Camila Cabello&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Shubh&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sia&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sidhu Moose Wala&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SiM&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Simone Mendes&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Skrillex, Flowdan, Fred again..&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sleepy hallow&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sleepy hallow, 347aidan&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Snoop Dogg, BTS, Benny Blanco&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sofia Carson&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Sog, Ryan Castro, Peso Pluma&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Southstar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;sped up 8282&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;sped up nightcore, ARIZONATEARS, Lil Uzi Vert&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Stephanie Beatriz, Diane Guerrero&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Stephen Sanchez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Steve Aoki, Tini, La Joaqui&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Steve Lacy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Stray Kids&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Stromae&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Styrx, utku INC, Thezth&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Suki Waterhouse&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Surf Curse&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Swae Lee, A Boogie Wit da Hoodie, Metro Boomin, NAV&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Swae Lee, Lil Wayne, Offset, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SZA&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SZA, Doja Cat&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SZA, Don Toliver&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SZA, Phoebe Bridgers&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;SZA, Travis Scott&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;TAEYANG, Jimin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;TAEYANG, Lisa&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tainy, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Taiu, Milo j&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tate McRae&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Taylor Swift&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Taylor Swift, Ice Spice&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Taylor Swift, Lana Del Rey&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tears For Fears&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;teto&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;THE ANXIETY, Willow, Tyler Cole&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Chainsmokers, Coldplay&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Chainsmokers, Halsey&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Goo Goo Dolls&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Kid Laroi&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Killers&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Neighbourhood&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Police&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Rare Occasions&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Ronettes&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Walters&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, 21 Savage, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Daft Punk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Future&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Gesaffelstein&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Lana Del Rey&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Lil Wayne&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Madonna, Playboi Carti&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Post Malone&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, ROSALï¿½&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Swedish House Mafia&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;The Weeknd, Tyler, The Creator&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;ThxSoMch&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tiï¿½ï¿&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tiï¿½ï¿½sto, Ava&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tiï¿½ï¿½sto, Kar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tiï¿½ï¿½sto, Tate M&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tini&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tini, L-Gante&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tini, Maria Becerra&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tom Odell&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;TOMORROW X TOGETHER&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tones and I&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tony Dize, Bad Bunny&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tory Lanez&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Travis Scott, 21 Savage, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Travis Scott, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Travis Scott, Young Thug, Metro Boomin&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Treasure&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Treyce&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Troye Sivan&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Trueno&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Trueno, Tiago pzk&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tulus&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;TV Girl&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;TWICE&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Twisted, Oliver Tree&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tyga, Doja Cat&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tyler, The Creator&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Tyler, The Creator, Kali Uchis&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Ugly Dray, Tesla Jnr&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;V&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Vance Joy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Veigh, Bvga Beatz, Supernova Ent, Prod Malax&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Victor Cibrian&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Vishal-Shekhar, Shilpa Rao, Caralisa Monteiro, Kumaar, Vishal Dadlani, Shekhar Ravjiani&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Vundabar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Wham!&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Willow&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Wisin &amp; Yandel, ROSALï¿½&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;WizKid, Toian, Metro Boomin, Don Toliver, Beam&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Xamï¿½ï¿½, Gustah, Neo B&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;XXXTENTACION&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yahritza Y Su Esencia&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yahritza Y Su Esencia, Grupo Frontera&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yandel, Feid&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;YEAT&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yng Lvcas&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;YOASOBI&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Young Thug, Future, Gunna&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yung Gravy&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yung Lean&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Yuridia, Angela Aguilar&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Zach Bryan&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Zï¿½ï¿½ Fe&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Zï¿½ï¿½ Neto &amp; Crist&quot;' />
+                  <groupfilter function='member' level='[none:artist(s)_name:nk]' member='&quot;Zion &amp; Lennox&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[sum:in_spotify_playlists:qk]</rows>
+        <cols>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</cols>
+      </table>
+      <simple-id uuid='{A9AEEF27-6972-4182-B88D-A0D7C5D1310D}' />
+    </worksheet>
+    <worksheet name='Top 5 artists with dance ability'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>Top 5 artists with dance ability</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='spotify-2023' name='federated.1jlrqwf1syfc7s14rjnp30cbuy8a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jlrqwf1syfc7s14rjnp30cbuy8a'>
+            <column caption='Artist(S) Name' datatype='string' name='[artist(s)_name]' role='dimension' type='nominal' />
+            <column caption='Danceability %' datatype='integer' name='[danceability_%]' role='measure' type='quantitative' />
+            <column-instance column='[artist(s)_name]' derivation='None' name='[none:artist(s)_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[danceability_%]' derivation='Sum' name='[sum:danceability_%:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([danceability_%])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:artist(s)_name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[sum:danceability_%:qk]</rows>
+        <cols>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</cols>
+      </table>
+      <simple-id uuid='{D9BCA040-29B9-487C-905E-105149CAC1C6}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Top 10 artists with most hits'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F1FC35E1-9C06-436F-BD92-DBD1CE26872B}' />
+    </window>
+    <window class='worksheet' name='Top 5 artists with dance ability'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4C37EB1B-1BDD-41B4-9038-7B27C65BB96C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Top 5 artists for Spotify list'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jlrqwf1syfc7s14rjnp30cbuy8a].[none:artist(s)_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7F3F78DC-94E6-46C6-AB71-7A47DDB32CBE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Top 10 artists with most hits' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Top 5 artists for Spotify list' width='192'>
+      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
+      80PTba4+LAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Top 5 artists with dance ability' width='192'>
+      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
+      6fWIW87CyPr/n7F78T2HMJYAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
