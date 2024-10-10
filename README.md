@@ -35,6 +35,6 @@ Key Observations:
   General Insights:
 ✔	If you search for the most profitable job title it is Research Scientist followed by Data Analyst, AI Scientist, and Applied Machine Learning Scientist.
 ✔	If you search for a widely applied job title it is Data Engineer, followed by Data Scientist, and Data Analyst.
-✔	If you search for the region with the most applied employees US region, followed by GB, and CA.
+
 
 
